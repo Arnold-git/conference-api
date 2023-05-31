@@ -10,7 +10,7 @@ import {
 import { TalkService } from './talk.service';
 import { Talk } from '../schemas/talk.schema';
 import { CreateTalkDto } from '../dto/create-talk.dto';
-import { UpdateTalkDto } from '../dto/update-book.dto';
+import { UpdateTalkDto } from '../dto/update-talk.dto';
 import { AddAttendeeToTalk } from 'src/dto/add-attendee.dto';
 
 @Controller('talk')
