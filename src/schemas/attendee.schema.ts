@@ -20,5 +20,4 @@ export class Attendee {
     phoneNumber: number
 }
 
-
 export const AttendeeSchema = SchemaFactory.createForClass(Attendee)
