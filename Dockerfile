@@ -10,4 +10,4 @@ RUN npm install
 RUN npm run build
  
 # Run the web service on container startup.
-CMD ["npm", "src/main"]
+CMD ["npm", "src/main.ts"]
