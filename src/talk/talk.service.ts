@@ -58,9 +58,6 @@ export class TalkService {
 
     return talk.save()
 
-    // return await this.talkModel.findByIdAndUpdate(talkId, {
-    //   attendees: [...talk.attendees, attendee],
-    // });
   }
 
 
