@@ -7,12 +7,14 @@ import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AttendeeModule } from './attendee/attendee.module';
 
+
 @Module({
   imports: [
     ConfigModule.forRoot({
       envFilePath: ".env",
       isGlobal: true
     }),
+    
     MongooseModule.forRoot(process.env.DB_URL),
     TalkModule,
     AttendeeModule,

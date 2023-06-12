@@ -3,8 +3,6 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Message } from '../schemas/message.schema';
 import { MessageGateway } from './message.gateway';
 import * as mongoose from 'mongoose';
-import { Talk } from 'src/schemas/talk.schema';
-import { Server } from "socket.io";
 import { CreateMessageDto } from '../dto/create-message.dto';
 
 
